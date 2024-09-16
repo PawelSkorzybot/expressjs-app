@@ -1,1 +1,0 @@
-var express=require("express"),app=express();app.get("/",function(s,e){e.send("DevOps - Strona startowa!"),console.log("Zażądano strony Start")}),app.get("/users",function(s,e){e.send("DevOps - strona Users!"),console.log("Zażądano strony Users")}),app.listen(3001,function(){console.log("Aplikacja OK")});
